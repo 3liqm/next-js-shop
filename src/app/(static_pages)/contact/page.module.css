@@ -1,0 +1,193 @@
+.contact {
+  height: 100%;
+  margin-top: 4rem;
+  padding: 2rem;
+}
+.head {
+  display: flex;
+  justify-content: center;
+}
+.head p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.head span {
+  color: var(--secondary-color);
+}
+.contact_tag {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+}
+.contact_tag div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+  width: 350px;
+  height: 70px;
+  border-radius: 10px;
+}
+.contact_tag div p {
+  font-size: 24px;
+}
+.inputs {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.name {
+  width: 500px;
+  height: 60px;
+  background-color: var(--primary-color);
+  color: var(--black-color);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.email {
+  width: 500px;
+  height: 60px;
+  background-color: var(--primary-color);
+  color: var(--black-color);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.message {
+  width: 500px;
+  height: 200px;
+  padding: 1rem;
+  background-color: var(--primary-color);
+  color: var(--black-color);
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+.message::placeholder {
+  font-size: 14px;
+}
+.button {
+  width: 150px;
+  height: 70px;
+  border-radius: 10px;
+  border: none;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 35px;
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .contact_tag div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    width: 300px;
+    height: 70px;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contact_tag div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+  }
+  .contact_tag div p {
+    font-size: 20px;
+  }
+  .name {
+    width: 450px;
+  }
+  .email {
+    width: 450px;
+  }
+  .message {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact_tag {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact_tag div p {
+    font-size: 17px;
+  }
+  .name {
+    width: 400px;
+  }
+  .email {
+    width: 400px;
+  }
+  .message {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 530px) {
+  .contact_tag {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact_tag div p {
+    font-size: 18px;
+  }
+  .name {
+    width: 350px;
+  }
+  .email {
+    width: 350px;
+  }
+  .message {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .name {
+    width: 300px;
+  }
+  .email {
+    width: 300px;
+  }
+  .message {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .name {
+    width: 265px;
+  }
+  .email {
+    width: 265px;
+  }
+  .message {
+    width: 265px;
+  }
+}
