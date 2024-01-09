@@ -24,7 +24,7 @@
   transition: all 0.3s ease-in-out;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  height: 480px;
+  height: 540px;
   width: 240px;
   overflow: hidden;
 }
