@@ -191,13 +191,13 @@
   }
   .toggle_1 {
     top: 118px;
-    right: 24px;
-    font-size: 16px;
+    right: 20px;
+    font-size: 14px;
   }
   .toggle_2 {
     top: 120px;
-    left: 24px;
-    font-size: 16px;
+    left: 20px;
+    font-size: 14px;
   }
   .categoriesContainer {
     position: fixed;
