@@ -188,15 +188,15 @@
     gap: 20px;
   }
   .container_newslater input {
-    width: 200px;
+    width: 280px;
     height: 45px;
     margin-right: 10px;
-    margin-bottom: 10px;
     padding-left: 10px;
+    margin-bottom: 1rem;
   }
   .button {
-    width: 110px;
-    font-size: 14px;
+    width: 130px;
+    font-size: 16px;
   }
   .links {
     margin-bottom: 2rem;
