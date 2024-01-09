@@ -3,6 +3,7 @@ import Image from "next/image";
 import { links, services, social_media } from "./data";
 import Logo from "../elements/logo/Logo";
 import Link from "next/link";
+
 const Footer = () => {
   return (
     <div className={styles.container}>
@@ -14,7 +15,7 @@ const Footer = () => {
           <p>Subscribe to the newsletter</p>
           <div className={styles.input}>
             <input placeholder="Enter E-Mail" type="text" />
-            <button className={styles.button}>Subment</button>
+            <button className={styles.button}>Submit</button>
           </div>
         </div>
       </div>
@@ -31,8 +32,8 @@ const Footer = () => {
         <div>
           <ul className={styles.app_links}>
             {services.map((service, index) => (
-              <li className={styles.app__flex}>
-                <Link href={service.url} key={index}>{service.title} </Link>
+              <li className={styles.app__flex} key={index}>
+                <Link href={service.url}>{service.title}</Link>
               </li>
             ))}
           </ul>
@@ -48,7 +49,7 @@ const Footer = () => {
               width={20}
               height={20}
               className={styles.icon}
-              alt="HEXASHOP `${mesia.name}` link "
+              alt={`HEXASHOP ${media.name} link`}
             />
           ))}
         </div>
