@@ -6,7 +6,7 @@ import CartProvider from "@/Context/CartContext";
 import { Montserrat } from 'next/font/google'
 const logoFont = Montserrat({
   subsets: ['latin'],
-  weight: ['400', '600']
+  weight: ['400']
 })
 
 export const metadata = {
