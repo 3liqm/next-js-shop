@@ -3,8 +3,8 @@ import "./globals.css";
 import Footer from "@/components/footer/Footer";
 import ProductProvider from "@/Context/ProductContext";
 import CartProvider from "@/Context/CartContext";
-import { Montserrat } from 'next/font/google'
-const logoFont = Montserrat({
+import { Poppins } from 'next/font/google'
+const logoFont = Poppins({
   subsets: ['latin'],
   weight: ['400']
 })
