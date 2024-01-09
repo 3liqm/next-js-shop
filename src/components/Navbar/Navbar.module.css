@@ -170,4 +170,9 @@
   .app__navbar_links {
     display: flex;
   }
+    .cart_amount {
+  padding-top: 1px;
 }
+}
+
+
