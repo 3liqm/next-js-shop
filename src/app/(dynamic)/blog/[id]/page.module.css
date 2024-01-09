@@ -416,7 +416,7 @@
     height: 100%;
   }
   .tags{
-    padding-left: 1.5rem;
+    padding: 0.5rem;
 }
   .product_img {
     display: flex;
