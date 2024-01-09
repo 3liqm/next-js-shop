@@ -2,10 +2,6 @@
   height: 100%;
   margin: 4rem 0;
 }
-.main_title {.popular_products {
-  height: 100%;
-  margin: 4rem 0;
-}
 .main_title {
   color: var(--black-color);
   font-size: 38px;
@@ -28,7 +24,7 @@
   transition: all 0.3s ease-in-out;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  height: 400px;
+  height: 480px;
   width: 240px;
   overflow: hidden;
 }
@@ -154,7 +150,7 @@
     font-weight: 600;
   }
   .post {
-    height: 490px;
+    height: 400px;
     width: 400px;
     margin: 0 10px;
   }
@@ -197,7 +193,7 @@
     font-weight: 600;
   }
   .post {
-    height: 490px;
+    height: 430px;
     width: 400px;
     margin: 0 10px;
   }
@@ -258,15 +254,26 @@
     width: 43px;
     height: 43px;
   }
+  .post {
+    height: 530px;
+    width: 400px;
+    margin: 0 10px;
+  }
+  .arrow_slider {
+    width: 40px;
+    height: 40px;
+  }
   .spicial_products {
     display: grid;
     grid-template-columns: repeat(1, 98%);
     margin: 1rem;
     gap: 30px;
   }
+
   .content_image {
     width: 220px;
     height: 220px;
+    margin-left: 20px;
   }
   .desc {
     font-size: 15px;
@@ -278,7 +285,7 @@
   }
 
   .post {
-    height: 540px;
+    height: 530px;
     width: 400px;
     margin: 0 10px;
   }
@@ -302,13 +309,13 @@
     font-size: 15px;
   }
 }
-  @media (max-width: 400px) {
+@media (max-width: 400px) {
   .main_title {
     font-size: 26px;
   }
 
   .post {
-    height: 540px;
+    height: 530px;
     width: 400px;
     margin: 0 10px;
   }
@@ -332,4 +339,3 @@
     font-size: 15px;
   }
 }
-
