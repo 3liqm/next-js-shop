@@ -18,7 +18,7 @@ function Service() {
                 height={25}
                 className={styles.service_image}
               />
-               <div>
+               <div className={styles.service_title}>
                 <h4>{service.title}</h4>
                 <p>{service.text}</p>
             </div>
