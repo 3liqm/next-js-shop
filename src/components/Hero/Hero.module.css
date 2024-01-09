@@ -253,7 +253,7 @@
   }
 
   .squares li:nth-child(11) {
-    left: 30%;
+    left: 25%;
     width: 80px;
     height: 80px;
     animation-delay: 4s;
@@ -268,7 +268,7 @@
     background-color: olivedrab;
   }
   .squares li:nth-child(9) {
-    left: 30%;
+    left: 20%;
     width: 60px;
     height: 60px;
     animation-delay: 4s;
