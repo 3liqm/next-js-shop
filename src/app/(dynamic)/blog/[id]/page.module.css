@@ -355,6 +355,9 @@
     margin: 6rem 0;
     height: 100%;
   }
+    .tags{
+    padding: 0.5rem;
+  }
   .product_img {
     display: flex;
     justify-content: center;
