@@ -1,13 +1,13 @@
 import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
-import { Flamenco } from "next/font/google";
 import Footer from "@/components/footer/Footer";
 import ProductProvider from "@/Context/ProductContext";
 import CartProvider from "@/Context/CartContext";
-const flamenco = Flamenco({
-  subsets: ["latin"],
-  weight: ["400"],
-});
+import { Montserrat } from 'next/font/google'
+const logoFont = Montserrat({
+  subsets: ['latin'],
+  weight: ['600']
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -17,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={flamenco.className}>
+      <body className={logoFont.className}>
         <CartProvider>
           <ProductProvider>
             <Navbar />
