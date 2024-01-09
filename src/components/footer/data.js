@@ -17,15 +17,15 @@ export const social_media = [
   },
 ];
 export const links = [
-  {
+    {
     id: 1,
-    title: "About Us",
-    url: "./about",
+    title: "Home",
+    url: "./",
   },
   {
     id: 2,
-    title: "Portfolio",
-    url: "./portfolio",
+    title: "About Us",
+    url: "./about",
   },
   {
     id: 3,
