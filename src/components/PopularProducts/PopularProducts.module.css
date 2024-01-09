@@ -2,6 +2,10 @@
   height: 100%;
   margin: 4rem 0;
 }
+.main_title {.popular_products {
+  height: 100%;
+  margin: 4rem 0;
+}
 .main_title {
   color: var(--black-color);
   font-size: 38px;
@@ -292,8 +296,10 @@
   .content_image {
     width: 220px;
     height: 220px;
+    margin-left: 20px;
   }
   .desc {
     font-size: 15px;
   }
 }
+
