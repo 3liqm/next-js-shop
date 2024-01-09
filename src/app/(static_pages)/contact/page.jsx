@@ -8,7 +8,7 @@ function Contact() {
     <div className={styles.contact}>
       <div className={styles.head}>
         <p>
-          Let's stay in <span>touch !</span>
+          Let s stay in <span>touch !</span>
         </p>
       </div>
       <div>
