@@ -115,7 +115,6 @@
   background-color: var(--secondary-color);
   border-radius: 50%;
   font-size: 13px;
-  padding-top: 3px;
 }
 
 .app__navbar_menu {
@@ -170,9 +169,6 @@
   .app__navbar_links {
     display: flex;
   }
-    .cart_amount {
-  padding-top: 1px;
-}
 }
 
 
