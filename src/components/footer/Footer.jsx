@@ -21,8 +21,8 @@ const Footer = () => {
       <div className={styles.links}>
         <div>
           <ul className={styles.app_links}>
-            {links.map((link) => (
-              <li className={styles.app__flex}>
+            {links.map((link, index) => (
+              <li className={styles.app__flex} key={index}>
                 <Link href={link.url}>{link.title}</Link>
               </li>
             ))}
@@ -30,9 +30,9 @@ const Footer = () => {
         </div>
         <div>
           <ul className={styles.app_links}>
-            {services.map((service) => (
+            {services.map((service, index) => (
               <li className={styles.app__flex}>
-                <Link href={service.url}>{service.title}</Link>
+                <Link href={service.url}>{service.title} key={index}</Link>
               </li>
             ))}
           </ul>
