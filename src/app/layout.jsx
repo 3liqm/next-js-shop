@@ -6,7 +6,7 @@ import CartProvider from "@/Context/CartContext";
 import { Poppins } from 'next/font/google'
 const logoFont = Poppins({
   subsets: ['latin'],
-  weight: ['400']
+  weight: ['200','400']
 })
 
 export const metadata = {
