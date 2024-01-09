@@ -32,7 +32,7 @@ const Footer = () => {
           <ul className={styles.app_links}>
             {services.map((service, index) => (
               <li className={styles.app__flex}>
-                <Link href={service.url}>{service.title} key={index}</Link>
+                <Link href={service.url} key={index}>{service.title} </Link>
               </li>
             ))}
           </ul>
