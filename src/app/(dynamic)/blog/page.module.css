@@ -189,15 +189,18 @@
     margin: 14rem 2rem;
     gap: 30px;
   }
+    .post {
+    height: 540px;
+   }
   .toggle_1 {
-    top: 118px;
-    right: 20px;
-    font-size: 14px;
+    top: 158px;
+    right: 64px;
+    font-size: 16px;
   }
   .toggle_2 {
-    top: 120px;
-    left: 20px;
-    font-size: 14px;
+    top: 100px;
+    left: 24px;
+    font-size: 16px;
   }
   .categoriesContainer {
     position: fixed;
@@ -212,6 +215,9 @@
     margin: 16rem 1rem;
     gap: 30px;
   }
+  .post {
+  height: 540px;
+}
   .toggle_1 {
     top: 158px;
     right: 64px;
