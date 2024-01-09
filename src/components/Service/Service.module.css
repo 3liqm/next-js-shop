@@ -31,6 +31,14 @@
 .title span{
     color:  var(--secondary-color);
 }
+.service_title h4{
+    font-size: 18px;
+    color: var(--black-color);
+   } 
+   .service_title p{
+    font-size:  16px;
+    color: var(--black-color);
+   } 
 @media (max-width: 900px) {
     .title p{
         font-size: 31px;
@@ -48,10 +56,22 @@
         font-size: 30px;
        
     }
+    .service_title h4{
+        font-size: 16px;
+       } 
+       .service_title p{
+        font-size:  13px;
+       } 
 }
 @media (max-width: 450px) {
     .title p{
         font-size: 28px;
        
     }
+    .service_title h4{
+        font-size: 16px;
+       } 
+       .service_title p{
+        font-size:  13px;
+       } 
 }
