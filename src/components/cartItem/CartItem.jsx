@@ -16,7 +16,7 @@ function CartItem({ item }) {
       <div className={styles.cartItem}>
         <div>
           <Link href={`blog/${id}`} className={styles.photos}>
-            <p> Product's Photos</p>
+            <p> Product s Photos</p>
             <div>
               {" "}
               <FaArrowRight />
