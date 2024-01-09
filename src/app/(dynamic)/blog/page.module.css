@@ -69,6 +69,7 @@
   right: 38px;
   padding: 10px;
   font-size: 20px;
+  height: 50px;
   color: var(--secondary-color);
   background-color: var(--primary-color);
   display: flex;
@@ -182,7 +183,7 @@
   }
 }
 
-@media (max-width: 405px) {
+@media (max-width: 450px) {
   .mainContainer {
     display: grid;
     grid-template-columns: repeat(1, 98.9%);
@@ -190,17 +191,17 @@
     gap: 30px;
   }
     .post {
-    height: 540px;
+    height: 570px;
    }
   .toggle_1 {
-    top: 158px;
-    right: 64px;
-    font-size: 16px;
+    top: 100px;
+    right: 20px;
+    font-size: 14px;
   }
   .toggle_2 {
     top: 100px;
-    left: 24px;
-    font-size: 16px;
+    left: 20px;
+    font-size: 14px;
   }
   .categoriesContainer {
     position: fixed;
@@ -208,7 +209,7 @@
     right: 40px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 400px) {
   .mainContainer {
     display: grid;
     grid-template-columns: repeat(1, 98.9%);
@@ -219,19 +220,19 @@
   height: 540px;
 }
   .toggle_1 {
-    top: 158px;
-    right: 64px;
+    top: 100px;
+    right: 15px;
     font-size: 16px;
   }
   .toggle_2 {
     top: 100px;
-    left: 24px;
+    left: 15px;
     font-size: 16px;
   }
   .categoriesContainer {
     position: fixed;
-    top: 235px;
-    right: 40px;
+    top: 160px;
+    right: 25px;
   }
   .text {
   font-size: 14px;
