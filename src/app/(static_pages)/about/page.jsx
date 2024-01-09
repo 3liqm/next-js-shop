@@ -19,7 +19,7 @@ function About() {
         </div>
       </div>
       <div className={styles.about_section}>
-        <h2>Our Company's Message</h2>
+        <h2>Our Company Message</h2>
         <div>
           <p>
             At HEXASHOP, we are driven by a commitment to deliver high-quality
@@ -28,7 +28,7 @@ function About() {
             items from cutting-edge electronics to stylish accessories. With a
             foundation established in 2007, we continue to evolve, embracing
             innovation and customer satisfaction. HEXASHOP is more than a
-            shopping destination; it's a reflection of our dedication to quality
+            shopping destination; it s a reflection of our dedication to quality
             and convenience. Join us on this journey, where every purchase tells
             a story of excellence.
           </p>
