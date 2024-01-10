@@ -212,7 +212,7 @@
   .container {
     display: flex;
     flex-direction: column;
-    margin: 10rem 2rem;
+    margin: 8rem 2rem;
     height: 100%;
   }
   .imageContainer {
@@ -251,6 +251,9 @@
 }
 @media (max-width: 700px) {
   .container {
+  margin: 3rem 1rem ;
+}
+  .container {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -263,7 +266,7 @@
   .container {
     display: flex;
     flex-direction: column;
-    margin: 8rem 1rem;
+    margin: 5rem 1rem;
     height: 100%;
   }
   .product_img {
