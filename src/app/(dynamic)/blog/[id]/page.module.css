@@ -62,7 +62,7 @@
   gap: 10px;
   margin: 20px 2rem;
   cursor: pointer;
-  overflow: hidden;
+  outline: none;
 }
 
 .header {
@@ -250,7 +250,7 @@
     font-weight: 500;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .container {
   margin: 3rem 1rem ;
 }
@@ -260,7 +260,7 @@
     height: 100%;
   }
   .shopDesc {
-  margin: 1rem;
+  margin: 0 1rem;
 }
   .shopDesc {
   margin: 2rem;
