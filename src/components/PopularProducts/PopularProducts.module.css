@@ -15,7 +15,7 @@
 
 .mainContainer {
   display: flex;
-  gap: 22px;
+  gap: 15px;
   padding: 100px 10px;
 }
 
@@ -25,7 +25,7 @@
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   height: 570px;
-  width: 240px;
+  width: 270px;
   overflow: hidden;
 }
 
@@ -197,7 +197,7 @@
   }
   .post {
     height: 480px;
-    width: 400px;
+    width: 420px;
     margin: 0 10px;
   }
   .post:hover {
@@ -259,7 +259,7 @@
   }
   .post {
     height: 500px;
-    width: 400px;
+    width: 420px;
     margin: 0 10px;
   }
   .arrow_slider {
