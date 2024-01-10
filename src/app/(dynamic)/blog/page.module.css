@@ -1,8 +1,8 @@
 .mainContainer {
   display: grid;
-  grid-template-columns: repeat(4, 23.9%);
+  grid-template-columns: repeat(4, 23.5%);
   margin: 13rem 2rem;
-  gap: 30px;
+  gap: 25px;
 }
 
 .post {
