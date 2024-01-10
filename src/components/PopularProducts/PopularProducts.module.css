@@ -24,7 +24,7 @@
   transition: all 0.3s ease-in-out;
   border-radius: 15px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  height: 540px;
+  height: 570px;
   width: 240px;
   overflow: hidden;
 }
@@ -196,7 +196,7 @@
     font-weight: 600;
   }
   .post {
-    height: 570px;
+    height: 530px;
     width: 400px;
     margin: 0 10px;
   }
@@ -258,7 +258,7 @@
     height: 43px;
   }
   .post {
-    height: 570px;
+    height: 530px;
     width: 400px;
     margin: 0 10px;
   }
