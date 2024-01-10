@@ -215,9 +215,6 @@
     margin: 10rem 2rem;
     height: 100%;
   }
-  .product_img {
-    margin-bottom: 3rem;
-  }
   .imageContainer {
     position: relative;
     height: 480px;
@@ -258,6 +255,9 @@
     flex-direction: column;
     height: 100%;
   }
+  .shopDesc {
+  margin: 2rem;
+}
 }
 @media (max-width: 600px) {
   .container {
@@ -341,7 +341,7 @@
     height: 70px;
   }
   .shopDesc {
-    margin: 2rem 2rem;
+    margin: 2rem;
   }
   .shopDesc_p {
     font-size: 14px;
