@@ -10,7 +10,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease-in-out;
   border-radius: 15px;
-  height: 470px;
+  height: 520px;
   overflow: hidden;
 }
 
@@ -150,6 +150,9 @@
     margin: 13rem 2rem;
     gap: 30px;
   }
+  .post {
+    height: 570px;
+   }
 }
 @media (max-width: 900px) {
   .mainContainer {
@@ -158,6 +161,9 @@
     margin: 13rem 2rem;
     gap: 30px;
   }
+  .post {
+    height: 570px;
+   }
 }
 @media (max-width: 600px) {
   .mainContainer {
@@ -181,6 +187,9 @@
     top: 235px;
     right: 40px;
   }
+  .post {
+    height: 570px;
+   }
 }
 
 @media (max-width: 450px) {
