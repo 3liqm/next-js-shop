@@ -260,6 +260,9 @@
     height: 100%;
   }
   .shopDesc {
+  margin: 1rem;
+}
+  .shopDesc {
   margin: 2rem;
 }
 }
@@ -310,7 +313,7 @@
   .container {
     display: flex;
     flex-direction: column;
-    margin: 8rem 1rem;
+    margin: 6rem 1rem;
     height: 100%;
   }
   .product_img {
