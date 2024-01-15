@@ -214,7 +214,7 @@
   .container {
     display: flex;
     flex-direction: column;
-    margin: 12rem 2rem;
+    margin: 16rem 2rem;
     height: 100%;
   }
   .imageContainer {
