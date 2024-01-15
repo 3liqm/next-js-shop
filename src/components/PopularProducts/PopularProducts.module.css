@@ -291,7 +291,7 @@
 
   .post {
     height: 480px;
-    width: 400px;
+    width: 410px;
     margin: 0 10px;
   }
   .arrow_slider {
@@ -313,6 +313,10 @@
   .desc {
     font-size: 15px;
   }
+.text {
+  padding: 5px 10px;
+}
+  
 }
 @media (max-width: 400px) {
   .main_title {
@@ -321,7 +325,7 @@
 
   .post {
     height: 480px;
-    width: 400px;
+    width: 410px;
     margin: 0 10px;
   }
   .arrow_slider {
@@ -343,4 +347,7 @@
   .desc {
     font-size: 15px;
   }
+  .text {
+  padding: 5px 10px;
+}
 }
