@@ -148,6 +148,9 @@
     height: 100%; } 
   .text { 
     width: 100%; } 
+  .price {
+    margin-bottom: 10px;
+   }
   .spicial_products { 
     display: grid; 
     grid-template-columns: repeat(2, 49%);
@@ -164,8 +167,8 @@
     font-size: 30px; 
     font-weight: 600; }
   .post {
-    height: 400px; 
-    width: 440px; 
+    height: 460px; 
+    width: 460px; 
     margin: 0 10px; 
     padding: 0 5px; }
   .post:hover { 
@@ -212,7 +215,7 @@
     height: 43px; } 
   .post { 
     height: 460px;
-    width: 440px; 
+    width: 460px; 
     margin: 0 10px; }
   .arrow_slider { 
     width: 40px; 
@@ -233,7 +236,7 @@
     font-size: 26px; } 
   .post { 
     height: 460px; 
-    width: 440px; 
+    width: 460px; 
     margin: 0 10px; } 
   .arrow_slider { 
     width: 40px; 
@@ -250,9 +253,9 @@
     font-size: 15px; } 
   .text { 
     padding: 5px 10px; }
-  .price{
-   margin-bottom: 4px;
-  }
+  .price {
+  margin-bottom: 10px;
+}
   }
 @media (max-width: 400px) {
   .main_title { 
