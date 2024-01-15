@@ -131,7 +131,7 @@
     font-size: 30px; 
     font-weight: 600; } 
   .post { 
-    height: 570px;
+    height: 500px;
     width: 400px; 
     margin: 0 10px; } 
   .post:hover { 
@@ -164,7 +164,7 @@
     font-size: 30px; 
     font-weight: 600; }
   .post {
-    height: 420px; 
+    height: 400px; 
     width: 440px; 
     margin: 0 10px; 
     padding: 0 5px; }
@@ -245,11 +245,19 @@
     gap: 30px; } 
   .content_image { 
     width: 220px;
-    height: 220px; margin-left: 20px; } .desc { font-size: 15px; } .text { padding: 5px 10px; } }
+    height: 220px; margin-left: 20px; }
+  .desc { 
+    font-size: 15px; } 
+  .text { 
+    padding: 5px 10px; }
+  .price{
+   margin-bottom: 4px;
+  }
+  }
 @media (max-width: 400px) {
   .main_title { 
     font-size: 26px; 
   } 
   .post { height: 480px;
-        }
+  }
 }
