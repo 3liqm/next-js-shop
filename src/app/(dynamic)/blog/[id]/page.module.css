@@ -372,7 +372,7 @@
   }
   .imageContainer {
     height: 400px;
-    width: 295px;
+    width: 350px;
   }
   .image_gallery {
     width: 70px;
@@ -405,7 +405,7 @@
   }
 
   .button {
-    width: 100px;
+    width: 140px;
     height: 60px;
     font-size: 15px;
   }
@@ -435,7 +435,7 @@
   }
   .imageContainer {
     height: 400px;
-    width: 270px;
+    width: 300px;
   }
   .image_gallery {
     width: 50px;
@@ -467,7 +467,7 @@
   }
 
   .button {
-    width: 100px;
+    width: 140px;
     height: 60px;
     font-size: 15px;
     margin-bottom: 1rem;
