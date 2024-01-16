@@ -143,6 +143,17 @@
   background-color: #ffffff;
   transform: scale(1.05);
 }
+@media (max-width: 1250px) {
+  .mainContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    margin: 13rem 2rem;
+    gap: 30px;
+  }
+  .post {
+    height: 570px;
+   }
+}
 @media (max-width: 1200px) {
   .mainContainer {
     display: grid;
