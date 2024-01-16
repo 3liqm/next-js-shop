@@ -25,9 +25,9 @@ const PopularProducts = () => {
         setVisibleSlides(1);
       } else if (screenWidth >= 600 && screenWidth < 930) {
         setVisibleSlides(2);
-      } else if (screenWidth >= 930 && screenWidth < 1224) {
+      } else if (screenWidth >= 930 && screenWidth < 1324) {
         setVisibleSlides(3);
-      } else if (screenWidth >= 1224) {
+      } else if (screenWidth >= 1324) {
         setVisibleSlides(4);
       }
     };
