@@ -143,7 +143,7 @@
   background-color: #ffffff;
   transform: scale(1.05);
 }
-@media (max-width: 1250px) {
+@media (max-width: 1300px) {
   .mainContainer {
     display: grid;
     grid-template-columns: repeat(3, 32%);
